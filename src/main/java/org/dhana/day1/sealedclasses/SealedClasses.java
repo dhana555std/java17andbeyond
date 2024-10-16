@@ -1,4 +1,4 @@
-package org.dhana.sealedclasses;
+package org.dhana.day1.sealedclasses;
 
 import java.io.Serializable;
 

@@ -1,5 +1,5 @@
 # Change the directory to the webserver
-cd <Java path>/bin
+cd %Java path%/bin
 
 # Webserver help.
 ./jwebserver -h

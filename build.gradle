@@ -18,6 +18,14 @@ test {
     useJUnitPlatform()
 }
 
-compileJava {
-    options.compilerArgs += ['--enable-preview']
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += '--enable-preview'  // Enable preview features during compilation
+}
+
+tasks.withType(Test).configureEach {
+    jvmArgs += '--enable-preview'  // Enable preview features for test execution
+}
+
+tasks.withType(JavaExec).configureEach {
+    jvmArgs += '--enable-preview'  // Enable preview features when running the application
 }

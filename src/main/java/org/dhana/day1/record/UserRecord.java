@@ -1,4 +1,4 @@
-package org.dhana.record;
+package org.dhana.day1.record;
 
 import java.io.Serializable;
 
@@ -23,6 +23,8 @@ public record UserRecord(long id, String name) implements Serializable {
     public static void main(String[] args) {
         UserRecord userRecord1 = new UserRecord(1, "Dhana");
         UserRecord userRecord2 = new UserRecord(1, "Dhana");
+        System.out.println(userRecord1.id() + " " + userRecord1.name());
+
 
         System.out.println(userRecord1);
         System.out.println(userRecord1.equals(userRecord2));

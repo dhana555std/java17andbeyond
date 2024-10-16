@@ -1,4 +1,4 @@
-package org.dhana.switchadv;
+package org.dhana.day1.switchadv;
 
 public class Multiple {
     public static void main(String[] args) {

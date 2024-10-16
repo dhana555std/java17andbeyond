@@ -1,4 +1,4 @@
-package org.dhana.sealedclasses;
+package org.dhana.day1.sealedclasses;
 
 public class Motivation {
     public static void main(String[] args) {

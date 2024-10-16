@@ -1,4 +1,4 @@
-package org.dhana.record;
+package org.dhana.day1.record;
 
 import java.util.Objects;
 

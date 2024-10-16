@@ -1,4 +1,4 @@
-package org.dhana.switchadv;
+package org.dhana.day1.switchadv;
 
 public class SwitchOld {
     public static void main(String[] args) {

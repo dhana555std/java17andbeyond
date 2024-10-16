@@ -1,4 +1,4 @@
-package org.dhana.preview;
+package org.dhana.day1.preview;
 
 public class Preview {
     public static void main(String[] args) {

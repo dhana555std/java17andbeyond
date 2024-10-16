@@ -1,4 +1,4 @@
-package org.dhana.instanceOf;
+package org.dhana.day1.instanceOf;
 
 import java.io.Serializable;
 
